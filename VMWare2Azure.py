@@ -147,7 +147,7 @@ vhd_hdds, az_hdds = generate_vhd_hdds_and_az_hdds(vmdk_hdds)
 az_vm_name = obtain_vm_name(vmdk_path)
 az_bootable_disk = genarate_az_bootable_disk_name(vmdk_hdds[0])
 
-convert_vmdks_2_vhds(vmdk_path,vmdk_hdds,vhd_path)
+#convert_vmdks_2_vhds(vmdk_path,vmdk_hdds,vhd_path)
 
 upload_vhds_2_az_storage(vhd_path,vhd_hdds)
 
