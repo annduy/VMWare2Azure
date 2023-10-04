@@ -167,4 +167,4 @@ if len(az_hdds) > 1 : #original VM has more than 1 disk: all disk from the 2nd o
         
 housekeeping()
 
-print("Your have finished migrating a VMWare from your computer to Azure. Enjoy with Azure cloud, :)")
+print(current_date_time_string() + ' : ' + "Your have finished migrating a VMWare from your computer to Azure. Enjoy with Azure cloud, :)")
